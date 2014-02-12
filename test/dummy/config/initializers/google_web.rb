@@ -1,0 +1,1 @@
+GoogleWebFonts::Font.new("AIzaSyBd3teFVncpPyVBcs0sx1LLIC2PK0R2338")

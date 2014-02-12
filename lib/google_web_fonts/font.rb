@@ -11,7 +11,12 @@ module GoogleWebFonts
 		req = Net::HTTP::Get.new(uri.request_uri)
 		res = http.request(req)
 		res.body = JSON.parse(res.body) if res.body
-		res
+		fonts = res.body.values.first
+		available_fonts = Array.new
+		fonts.each do |font|
+			available_fonts << font.values.first
+		end
+		available_fonts
 		end
 	end
 end

@@ -7,11 +7,11 @@ require "google_web_fonts/version"
 Gem::Specification.new do |s|
   s.name        = "google_web_fonts"
   s.version     = GoogleWebFonts::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of GoogleWebFonts."
-  s.description = "TODO: Description of GoogleWebFonts."
+  s.authors     = ["Oualid for Treize37"]
+  s.email       = ["jouhri.oualid@gmail.com"]
+  s.homepage    = "https://github.com/Treize37/GoogleWebFontsAccessor.git"
+  s.summary     = "Get the list of all name of google webfont"
+  s.description = "Get the list of all name of google webfont"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
